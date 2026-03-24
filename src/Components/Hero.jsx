@@ -3,7 +3,7 @@ import heroLogo from "../assets/banner-main.png";
 const Hero = () => {
   return (
     <div className="max-w-330 mx-auto px-2">
-      <div className="rounded-3xl py-16 text-center flex flex-col gap-6 items-center bg-[#131313] bg-[url(./bg-shadow.png)] bg-cover bg-no-repeat bg-center mb-22">
+      <div className="rounded-3xl py-16 text-center flex flex-col gap-6 items-center bg-[#131313] bg-[url(/bg-shadow.png)] bg-cover bg-no-repeat bg-center mb-22">
         <img src={heroLogo} alt="" />
         <div className="hero-contents space-y-6">
           <h1 className="font-bold text-[40px] text-white">
