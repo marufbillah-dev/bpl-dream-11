@@ -1,8 +1,8 @@
 const Newsletter = () => {
   return (
-    <div className="max-w-330 mx-auto px-2">
+    <section className="max-w-330 mx-auto px-2 relative -bottom-52">
       <div className=" bg-white/15 rounded-3xl border-2 border-white p-6">
-        <div className="flex flex-col justify-center items-center gap-6 bg-[url(/bg-shadow.png)] bg-cover bg-no-repeat bg-center py-22 border border-neutral/10 rounded-2xl text-center max-sm:px-2">
+        <div className="flex flex-col justify-center items-center gap-6 bg-white bg-[url(/bg-shadow.png)] bg-cover bg-no-repeat bg-center py-22 border border-neutral/10 rounded-2xl text-center max-sm:px-2">
           <h2 className="text-neutral font-bold text-[2rem] ">
             Subscribe to our Newsletter
           </h2>
@@ -29,7 +29,7 @@ const Newsletter = () => {
           </form>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
