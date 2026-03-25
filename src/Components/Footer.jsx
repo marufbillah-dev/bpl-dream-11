@@ -59,7 +59,7 @@ const Footer = () => {
       <hr className="border-white/15 w-full" />
       <div className="text-center pt-8">
         <span className="text-white/60">
-          @2026 &copy; Maruf Billah | All Rights Reserved.
+          @2026 Maruf Billah | All Rights Reserved.
         </span>
       </div>
     </footer>
