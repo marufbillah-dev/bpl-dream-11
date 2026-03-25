@@ -12,8 +12,8 @@ const Hero = () => {
           <p className="font-inter text-2xl font-medium text-white/70">
             Beyond Boundaries Beyond Limits
           </p>
-          <button className="rounded-2xl p-2 border-2 border-[#E7FE29] cursor-pointer">
-            <div className="rounded-lg p-3.5 bg-[#E7FE29] font-bold text-neutral">
+          <button className="rounded-2xl p-2 border-2 border-[#E7FE29] cursor-pointer transition-colors hover:border-[#d4e924]">
+            <div className="rounded-lg p-3.5 bg-[#E7FE29] font-bold text-neutral transition-colors hover:bg-[#d4e924]">
               Claim Free Credit
             </div>
           </button>

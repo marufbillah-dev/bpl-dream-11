@@ -3,7 +3,7 @@ import navLogo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 shadow-sm mb-6 sticky top-0">
+    <nav className="bg-base-100 shadow-sm mb-6 sticky top-0 z-50">
       <div className="navbar max-w-330 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

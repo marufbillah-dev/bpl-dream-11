@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 95,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1800000,
+    "image": "https://i.ibb.co/8r1Ny2n/shakib.png"
+  },
+  {
+    "id": 2,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 94,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 2000000,
+    "image": "https://i.ibb.co/3C7RkqM/stokes.png"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 94,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 2000000,
+    "image": "https://i.ibb.co/zXH2w9p/babar.png"
+  },
+  {
+    "id": 4,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 93,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1950000,
+    "image": "https://i.ibb.co/f4W6YkP/williamson.png"
+  },
+  {
+    "id": 5,
+    "name": "Jos Buttler",
+    "country": "England",
+    "role": "Wicket-Keeper",
+    "rating": 93,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1850000,
+    "image": "https://i.ibb.co/3pPyJkB/buttler.png"
+  },
+  {
+    "id": 6,
+    "name": "Pat Cummins",
+    "country": "Australia",
+    "role": "Bowler",
+    "rating": 92,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1850000,
+    "image": "https://i.ibb.co/6P6Kz0Y/cummins.png"
+  },
+  {
+    "id": 7,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "rating": 92,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1900000,
+    "image": "https://i.ibb.co/9qK0z3F/root.png"
+  },
+  {
+    "id": 8,
+    "name": "Shaheen Afridi",
+    "country": "Pakistan",
+    "role": "Bowler",
+    "rating": 91,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1750000,
+    "image": "https://i.ibb.co/ZYW3VTp/shaheen.png"
+  },
+  {
+    "id": 9,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 91,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1800000,
+    "image": "https://i.ibb.co/Y0y7R7K/warner.png"
+  },
+  {
+    "id": 10,
+    "name": "Tamim Iqbal",
+    "country": "Bangladesh",
+    "role": "Batsman",
+    "rating": 90,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1500000,
+    "image": "https://i.ibb.co/tX2Z0x6/tamim.png"
+  },
+  {
+    "id": 11,
+    "name": "Mustafizur Rahman",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "rating": 88,
+    "battingStyle": "Left-Hand-Bat",
+    "price": 1400000,
+    "image": "https://i.ibb.co/0V8Z6bM/fizz.png"
+  },
+  {
+    "id": 12,
+    "name": "Litton Das",
+    "country": "Bangladesh",
+    "role": "Wicket-Keeper",
+    "rating": 87,
+    "battingStyle": "Right-Hand-Bat",
+    "price": 1350000,
+    "image": "https://i.ibb.co/2gFh1Vg/litton.png"
+  }
+]
