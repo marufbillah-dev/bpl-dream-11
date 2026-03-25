@@ -17,3 +17,7 @@ body {
 @theme {
   --font-inter: "Inter", sans-serif;
 }
+
+button {
+  cursor: pointer;
+}

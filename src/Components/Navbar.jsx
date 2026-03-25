@@ -3,14 +3,18 @@ import navLogo from "../assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="bg-base-100 shadow-sm mb-6 sticky top-0 z-50">
-      <div className="navbar max-w-330 mx-auto">
+    <nav className="bg-white/80 backdrop-blur-md shadow-sm mb-6 sticky top-0 z-50">
+      <div className="navbar max-w-330 mx-auto px-4 sm:px-2">
         <div className="navbar-start">
           <div className="dropdown">
-            <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+            <div
+              tabIndex={0}
+              role="button"
+              className="btn btn-ghost lg:hidden p-0 mr-2"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-6 w-6"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -24,49 +28,52 @@ const Navbar = () => {
               </svg>
             </div>
             <ul
-              tabIndex="-1"
-              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-6 w-52 p-2 shadow"
+              tabIndex={0}
+              className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow-lg border border-neutral/5"
             >
               <li>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="">Fixture</a>
+                <a href="/fixture">Fixture</a>
               </li>
               <li>
-                <a href="">Teams</a>
+                <a href="/teams">Teams</a>
               </li>
               <li>
-                <a href="">Schedules</a>
+                <a href="/schedules">Schedules</a>
               </li>
             </ul>
           </div>
-          <a href="/">
-            <img src={navLogo} alt="" />
+
+          <a href="/" className="flex items-center">
+            <img src={navLogo} alt="Logo" className="h-10 sm:h-12 w-auto" />
           </a>
         </div>
-        <div className="navbar-end gap-8">
-          <div className="navbar-center hidden lg:flex">
-            <ul className="menu menu-horizontal px-1">
+
+        <div className="navbar-end gap-2 sm:gap-8">
+          <div className="hidden lg:flex">
+            <ul className="menu menu-horizontal px-1 font-medium text-neutral/70">
               <li>
-                <a href="">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
-                <a href="">Fixture</a>
+                <a href="/fixture">Fixture</a>
               </li>
               <li>
-                <a href="">Teams</a>
+                <a href="/teams">Teams</a>
               </li>
               <li>
-                <a href="">Schedules</a>
+                <a href="/schedules">Schedules</a>
               </li>
             </ul>
           </div>
-          <div className="flex gap-2.5 px-5 py-4 rounded-xl border border-[#131313]/10 cursor-pointer hover:bg-[#131313]/10">
-            <p className="font-semibold">
-              <span>0</span> Coins
+
+          <div className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 rounded-xl border border-neutral/10 cursor-pointer hover:bg-neutral/5 transition-colors">
+            <p className="font-bold text-sm sm:text-base">
+              <span>0</span> <span className="hidden xs:inline">Coins</span>
             </p>
-            <img src={dollarIcon} alt="" className="h-5 w-5" />
+            <img src={dollarIcon} alt="Coins" className="h-5 w-5" />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Players = ({ playersPromise }) => {
 
   return (
     <section className="py-8 md:py-12">
-      <div className="max-w-330 mx-auto px-2">
+      <div className="max-w-330 mx-auto px-4 sm:px-2">
         <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
           <h2 className="text-neutral font-bold text-2xl md:text-[1.75rem]">
             Available Players
