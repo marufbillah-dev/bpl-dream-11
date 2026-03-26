@@ -53,9 +53,9 @@ const PlayersLoading = () => {
           <div className="h-12 bg-gray-200 rounded-xl w-full sm:w-64"></div>
         </div>
 
-        {/* Grid of 6 Skeletons */}
+        {/* Grid of 12 Skeletons */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 place-items-center">
-          {[...Array(6)].map((_, index) => (
+          {[...Array(12)].map((_, index) => (
             <PlayerSkeleton key={index} />
           ))}
         </div>
