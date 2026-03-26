@@ -19,7 +19,7 @@ const Hero = () => {
             Beyond Boundaries Beyond Limits
           </p>
 
-          <button className="rounded-2xl p-1.5 sm:p-2 border-2 border-[#E7FE29] cursor-pointer transition-transform active:scale-95">
+          <button className="rounded-2xl p-1.5 sm:p-2 border-2 border-[#E7FE29] cursor-pointer transition-transform active:scale-95 hover:border-[#d4e924]">
             <div className="rounded-xl py-3 px-6 sm:py-3.5 sm:px-8 bg-[#E7FE29] font-bold text-neutral transition-colors hover:bg-[#d4e924]">
               Claim Free Credit
             </div>

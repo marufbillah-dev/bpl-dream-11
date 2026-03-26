@@ -17,12 +17,12 @@ const Players = ({ playersPromise }) => {
               Available
             </button>
             <button className="flex-1 sm:flex-none bg-white px-6 py-3 text-sm md:text-base font-semibold cursor-pointer transition-colors hover:bg-gray-50">
-              Selected (<span className="tabular-nums">0</span>)
+              Selected (<span className="tabular-num">0</span>)
             </button>
           </div>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 place-items-center">
           {playersData.map((player) => (
             <Player key={player.id} player={player} />
           ))}

@@ -7,7 +7,7 @@
     "rating": 95,
     "battingStyle": "Left-Hand-Bat",
     "price": 1800000,
-    "image": "https://i.ibb.co/8r1Ny2n/shakib.png"
+    "image": "https://i.ibb.co.com/hRBPT0zj/Shakib-Al-Hasan.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "rating": 94,
     "battingStyle": "Left-Hand-Bat",
     "price": 2000000,
-    "image": "https://i.ibb.co/3C7RkqM/stokes.png"
+    "image": "https://i.ibb.co.com/BVX1D43K/Ben-Stokes.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "rating": 94,
     "battingStyle": "Right-Hand-Bat",
     "price": 2000000,
-    "image": "https://i.ibb.co/zXH2w9p/babar.png"
+    "image": "https://i.ibb.co.com/rKyBSRJx/Babar-Azam.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "rating": 93,
     "battingStyle": "Right-Hand-Bat",
     "price": 1950000,
-    "image": "https://i.ibb.co/f4W6YkP/williamson.png"
+    "image": "https://i.ibb.co.com/6JJZbRdP/Kane-Williamson.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "rating": 93,
     "battingStyle": "Right-Hand-Bat",
     "price": 1850000,
-    "image": "https://i.ibb.co/3pPyJkB/buttler.png"
+    "image": "https://i.ibb.co.com/BVP83Dpd/Jos-Buttler.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "rating": 92,
     "battingStyle": "Right-Hand-Bat",
     "price": 1850000,
-    "image": "https://i.ibb.co/6P6Kz0Y/cummins.png"
+    "image": "https://i.ibb.co.com/nq1pKCDb/Pat-Cummins.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "rating": 92,
     "battingStyle": "Right-Hand-Bat",
     "price": 1900000,
-    "image": "https://i.ibb.co/9qK0z3F/root.png"
+    "image": "https://i.ibb.co.com/tM1T2TYV/Joe-Root.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "rating": 91,
     "battingStyle": "Left-Hand-Bat",
     "price": 1750000,
-    "image": "https://i.ibb.co/ZYW3VTp/shaheen.png"
+    "image": "https://i.ibb.co.com/xq58cfkW/Shaheen-Afridi.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "rating": 91,
     "battingStyle": "Left-Hand-Bat",
     "price": 1800000,
-    "image": "https://i.ibb.co/Y0y7R7K/warner.png"
+    "image": "https://i.ibb.co.com/qMpyd7xT/David-Warner.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "rating": 90,
     "battingStyle": "Left-Hand-Bat",
     "price": 1500000,
-    "image": "https://i.ibb.co/tX2Z0x6/tamim.png"
+    "image": "https://i.ibb.co.com/rK25MyrW/Tamim-Iqbal.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "rating": 88,
     "battingStyle": "Left-Hand-Bat",
     "price": 1400000,
-    "image": "https://i.ibb.co/0V8Z6bM/fizz.png"
+    "image": "https://i.ibb.co.com/tpt446vC/Mustafizur-Rahman.jpg"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "rating": 87,
     "battingStyle": "Right-Hand-Bat",
     "price": 1350000,
-    "image": "https://i.ibb.co/2gFh1Vg/litton.png"
+    "image": "https://i.ibb.co.com/Z6vbJCLt/Litton-Das.jpg"
   }
 ]

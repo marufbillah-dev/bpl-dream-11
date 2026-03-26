@@ -71,7 +71,7 @@ const Navbar = () => {
 
           <div className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 rounded-xl border border-neutral/10 cursor-pointer hover:bg-neutral/5 transition-colors">
             <p className="font-bold text-sm sm:text-base">
-              <span>0</span> <span className="hidden xs:inline">Coins</span>
+              <span>0</span> <span>Coins</span>
             </p>
             <img src={dollarIcon} alt="Coins" className="h-5 w-5" />
           </div>

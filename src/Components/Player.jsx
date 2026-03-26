@@ -10,7 +10,7 @@ const Player = ({ player }) => {
   const image = player?.image;
 
   return (
-    <div className="p-4 sm:p-6 rounded-2xl border border-neutral/10 w-full bg-white shadow-sm hover:shadow-md transition-shadow">
+    <div className="p-4 sm:p-6 rounded-2xl border border-neutral/10 w-full bg-white shadow-sm hover:shadow-md transition-shadow max-lg:max-w-103">
       <div className="rounded-2xl overflow-hidden mb-6 bg-neutral/5 flex justify-center">
         <img
           src={image}
@@ -58,10 +58,8 @@ const Player = ({ player }) => {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pt-2">
-            <p className="text-gray-800 font-bold text-base sm:text-lg">
-              Price: ${price}
-            </p>
-            <button className="w-full sm:w-auto text-gray-600 font-semibold border border-neutral/20 hover:bg-neutral hover:text-white transition-all text-sm rounded-lg px-4 py-2.5 cursor-pointer">
+            <p className="text-gray-800 font-bold">Price: ${price}</p>
+            <button className="w-full sm:w-auto text-gray-600 font-semibold text-[0.875rem] border border-neutral/20 hover:bg-neutral hover:text-white transition-all text-sm rounded-lg px-4 py-2.5 cursor-pointer">
               Choose Player
             </button>
           </div>

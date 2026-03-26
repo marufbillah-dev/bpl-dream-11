@@ -5,11 +5,7 @@ const Footer = () => {
     <footer className="pb-8 pt-64 md:pt-72 bg-[#06091A] text-white">
       <div className="max-w-330 mx-auto px-4 sm:px-2 flex flex-col items-center">
         <div className="mb-12 md:mb-16">
-          <img
-            src={footerLogo}
-            alt="Footer Logo"
-            className="h-16 md:h-20 object-contain"
-          />
+          <img src={footerLogo} alt="Footer Logo" className="object-contain" />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 w-full mb-12 md:mb-18">

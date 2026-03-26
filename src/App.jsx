@@ -5,6 +5,7 @@ import Hero from "./Components/Hero";
 import Navbar from "./Components/Navbar";
 import Newsletter from "./Components/Newsletter";
 import Players from "./Components/Players";
+import PlayersLoading from "./Components/PlayersLoading";
 
 const fetchPlayers = async () => {
   const response = await fetch("/players.json");
@@ -17,7 +18,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <Hero></Hero>
-      <Suspense fallback={<p>Loading...</p>}>
+      <Suspense fallback={<PlayersLoading></PlayersLoading>}>
         <Players playersPromise={playersPromise}></Players>
       </Suspense>
       <Newsletter></Newsletter>
