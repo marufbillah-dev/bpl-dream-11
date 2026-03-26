@@ -1,6 +1,13 @@
+import { useState } from "react";
 import { FaFlag, FaStar, FaUserAlt } from "react-icons/fa";
 
-const Player = ({ player }) => {
+const Player = ({
+  player,
+  setCoin,
+  coin,
+  selectedPlayer,
+  setSelectedPlayer,
+}) => {
   const name = player?.name;
   const country = player?.country;
   const role = player?.role;
@@ -8,6 +15,22 @@ const Player = ({ player }) => {
   const battingStyle = player?.battingStyle;
   const price = player?.price;
   const image = player?.image;
+
+  // onClick for handle choose player button and coin update
+  const handleChoosePlayer = () => {
+    if (price > coin) {
+      alert("not enough coin");
+      return;
+    }
+
+    setIsSelected(true);
+    setCoin(coin - price);
+
+    setSelectedPlayer([...selectedPlayer, player]);
+  };
+
+  // State: Choose or Selected Button
+  const [isSelected, setIsSelected] = useState(false);
 
   return (
     <div className="p-4 sm:p-6 rounded-2xl border border-neutral/10 w-full bg-white shadow-sm hover:shadow-md transition-shadow max-lg:max-w-103">
@@ -58,9 +81,13 @@ const Player = ({ player }) => {
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pt-2">
-            <p className="text-gray-800 font-bold">Price: ${price}</p>
-            <button className="w-full sm:w-auto text-gray-600 font-semibold text-[0.875rem] border border-neutral/20 hover:bg-neutral hover:text-white transition-all text-sm rounded-lg px-4 py-2.5 cursor-pointer">
-              Choose Player
+            <p className="text-gray-800 font-bold">Price: ${price}K</p>
+            <button
+              onClick={handleChoosePlayer}
+              className={`w-full sm:w-auto  font-semibold text-[0.875rem] border border-neutral/20 transition-all text-sm rounded-lg px-4 py-2.5  ${isSelected ? "bg-neutral/5 text-neutral/50" : "hover:bg-neutral hover:text-white cursor-pointer text-gray-600"}`}
+              disabled={isSelected}
+            >
+              {isSelected ? "Selected" : "Choose Player"}
             </button>
           </div>
         </div>

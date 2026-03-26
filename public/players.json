@@ -6,7 +6,7 @@
     "role": "All-Rounder",
     "rating": 95,
     "battingStyle": "Left-Hand-Bat",
-    "price": 1800000,
+    "price": 1800,
     "image": "https://i.ibb.co.com/hRBPT0zj/Shakib-Al-Hasan.jpg"
   },
   {
@@ -16,7 +16,7 @@
     "role": "All-Rounder",
     "rating": 94,
     "battingStyle": "Left-Hand-Bat",
-    "price": 2000000,
+    "price": 2000,
     "image": "https://i.ibb.co.com/BVX1D43K/Ben-Stokes.jpg"
   },
   {
@@ -26,7 +26,7 @@
     "role": "Batsman",
     "rating": 94,
     "battingStyle": "Right-Hand-Bat",
-    "price": 2000000,
+    "price": 2000,
     "image": "https://i.ibb.co.com/rKyBSRJx/Babar-Azam.jpg"
   },
   {
@@ -36,7 +36,7 @@
     "role": "Batsman",
     "rating": 93,
     "battingStyle": "Right-Hand-Bat",
-    "price": 1950000,
+    "price": 1950,
     "image": "https://i.ibb.co.com/6JJZbRdP/Kane-Williamson.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "role": "Wicket-Keeper",
     "rating": 93,
     "battingStyle": "Right-Hand-Bat",
-    "price": 1850000,
+    "price": 1850,
     "image": "https://i.ibb.co.com/BVP83Dpd/Jos-Buttler.jpg"
   },
   {
@@ -56,7 +56,7 @@
     "role": "Bowler",
     "rating": 92,
     "battingStyle": "Right-Hand-Bat",
-    "price": 1850000,
+    "price": 1850,
     "image": "https://i.ibb.co.com/nq1pKCDb/Pat-Cummins.jpg"
   },
   {
@@ -66,7 +66,7 @@
     "role": "Batsman",
     "rating": 92,
     "battingStyle": "Right-Hand-Bat",
-    "price": 1900000,
+    "price": 1900,
     "image": "https://i.ibb.co.com/tM1T2TYV/Joe-Root.jpg"
   },
   {
@@ -76,7 +76,7 @@
     "role": "Bowler",
     "rating": 91,
     "battingStyle": "Left-Hand-Bat",
-    "price": 1750000,
+    "price": 1750,
     "image": "https://i.ibb.co.com/xq58cfkW/Shaheen-Afridi.jpg"
   },
   {
@@ -86,7 +86,7 @@
     "role": "Batsman",
     "rating": 91,
     "battingStyle": "Left-Hand-Bat",
-    "price": 1800000,
+    "price": 1800,
     "image": "https://i.ibb.co.com/qMpyd7xT/David-Warner.jpg"
   },
   {
@@ -96,7 +96,7 @@
     "role": "Batsman",
     "rating": 90,
     "battingStyle": "Left-Hand-Bat",
-    "price": 1500000,
+    "price": 1500,
     "image": "https://i.ibb.co.com/rK25MyrW/Tamim-Iqbal.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "role": "Bowler",
     "rating": 88,
     "battingStyle": "Left-Hand-Bat",
-    "price": 1400000,
+    "price": 1400,
     "image": "https://i.ibb.co.com/tpt446vC/Mustafizur-Rahman.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "role": "Wicket-Keeper",
     "rating": 87,
     "battingStyle": "Right-Hand-Bat",
-    "price": 1350000,
+    "price": 1350,
     "image": "https://i.ibb.co.com/Z6vbJCLt/Litton-Das.jpg"
   }
 ]

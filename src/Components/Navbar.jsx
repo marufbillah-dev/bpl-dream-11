@@ -1,7 +1,7 @@
 import dollarIcon from "../assets/dollar.png";
 import navLogo from "../assets/logo.png";
 
-const Navbar = () => {
+const Navbar = ({ coin }) => {
   return (
     <nav className="bg-white/80 backdrop-blur-md shadow-sm mb-6 sticky top-0 z-50">
       <div className="navbar max-w-330 mx-auto px-4 sm:px-2">
@@ -70,9 +70,7 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 rounded-xl border border-neutral/10 cursor-pointer hover:bg-neutral/5 transition-colors">
-            <p className="font-bold text-sm sm:text-base">
-              <span>0</span> <span>Coins</span>
-            </p>
+            <p className="font-bold text-sm sm:text-base">{coin} Coins</p>
             <img src={dollarIcon} alt="Coins" className="h-5 w-5" />
           </div>
         </div>
