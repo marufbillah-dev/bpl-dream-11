@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { FaFlag, FaStar, FaUserAlt } from "react-icons/fa";
 
-const Player = ({
+const PlayerCard = ({
   player,
   setCoin,
   coin,
@@ -96,4 +96,4 @@ const Player = ({
   );
 };
 
-export default Player;
+export default PlayerCard;
