@@ -22,7 +22,7 @@ function App() {
   return (
     <>
       <Navbar coin={coin}></Navbar>
-      <Hero></Hero>
+      <Hero setCoin={setCoin} coin={coin}></Hero>
       <Suspense fallback={<PlayersLoading></PlayersLoading>}>
         <Players
           playersPromise={playersPromise}
