@@ -14,9 +14,7 @@ const SelectedPlayer = ({
   const image = player?.image;
 
   const handleDeleteSelectedPlayer = (player) => {
-    const newSelectedPlayers = selectedPlayer.filter(
-      (selectedPlayer) => selectedPlayer.name !== player.name,
-    );
+    const newSelectedPlayers = selectedPlayer.filter((p) => p.id !== player.id);
 
     setSelectedPlayer(newSelectedPlayers);
     setCoin(coin + price);

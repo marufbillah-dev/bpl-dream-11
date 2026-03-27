@@ -1,6 +1,15 @@
+import { toast } from "react-toastify";
 import heroLogo from "../assets/banner-main.png";
 
-const Hero = () => {
+const Hero = ({ coin, setCoin }) => {
+  const handleFreeCredits = () => {
+    coin > 2000
+      ? toast.warn(
+          "You've enough coins left! Request when balance less than 2000.",
+        )
+      : (setCoin(coin + 5000), toast.success("5000 coins added!"));
+  };
+
   return (
     <section className="max-w-330 mx-auto px-4 sm:px-2">
       <div className="rounded-3xl py-12 md:py-16 px-6 text-center flex flex-col gap-6 items-center bg-[#131313] bg-[url('/bg-shadow.png')] bg-cover bg-no-repeat bg-center mb-12 md:mb-22">
@@ -19,7 +28,10 @@ const Hero = () => {
             Beyond Boundaries Beyond Limits
           </p>
 
-          <button className="rounded-2xl p-1.5 sm:p-2 border-2 border-[#E7FE29] cursor-pointer transition-transform active:scale-95 hover:border-[#d4e924]">
+          <button
+            className="rounded-2xl p-1.5 sm:p-2 border-2 border-[#E7FE29] cursor-pointer transition-transform active:scale-95 hover:border-[#d4e924]"
+            onClick={handleFreeCredits}
+          >
             <div className="rounded-xl py-3 px-6 sm:py-3.5 sm:px-8 bg-[#E7FE29] font-bold text-neutral transition-colors hover:bg-[#d4e924]">
               Claim Free Credit
             </div>

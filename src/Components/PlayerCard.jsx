@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaFlag, FaStar, FaUserAlt } from "react-icons/fa";
 import { toast } from "react-toastify";
 
@@ -17,8 +16,7 @@ const PlayerCard = ({
   const price = player?.price;
   const image = player?.image;
 
-  // State: Choose or Selected Button
-  const [isSelected, setIsSelected] = useState(false);
+  const isSelected = selectedPlayer.some((p) => p.id === player.id);
 
   // onClick for handle choose player button and coin update
   const handleChoosePlayer = () => {
@@ -28,7 +26,6 @@ const PlayerCard = ({
     }
 
     toast.success(`"${name}" added!`);
-    setIsSelected(true);
     setCoin(coin - price);
 
     setSelectedPlayer([...selectedPlayer, player]);
