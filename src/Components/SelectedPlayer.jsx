@@ -1,4 +1,5 @@
 import { FaRegTrashAlt } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const SelectedPlayer = ({
   player,
@@ -19,6 +20,8 @@ const SelectedPlayer = ({
 
     setSelectedPlayer(newSelectedPlayers);
     setCoin(coin + price);
+
+    toast.info(`"${name}" removed!`);
   };
 
   return (

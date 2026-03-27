@@ -6,6 +6,7 @@ import Navbar from "./Components/Navbar";
 import Newsletter from "./Components/Newsletter";
 import Players from "./Components/Players";
 import PlayersLoading from "./Components/PlayersLoading";
+import { ToastContainer } from "react-toastify";
 
 // fetch players data from json
 const fetchPlayers = async () => {
@@ -15,7 +16,7 @@ const fetchPlayers = async () => {
 const playersPromise = fetchPlayers();
 
 function App() {
-  // State Management for Coins
+  // State: Coins
   const [coin, setCoin] = useState(15000);
 
   return (
@@ -31,6 +32,7 @@ function App() {
       </Suspense>
       <Newsletter></Newsletter>
       <Footer></Footer>
+      <ToastContainer></ToastContainer>
     </>
   );
 }
