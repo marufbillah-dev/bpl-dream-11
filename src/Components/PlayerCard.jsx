@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaFlag, FaStar, FaUserAlt } from "react-icons/fa";
+import { toast } from "react-toastify";
 
 const PlayerCard = ({
   player,
@@ -16,21 +17,22 @@ const PlayerCard = ({
   const price = player?.price;
   const image = player?.image;
 
+  // State: Choose or Selected Button
+  const [isSelected, setIsSelected] = useState(false);
+
   // onClick for handle choose player button and coin update
   const handleChoosePlayer = () => {
     if (price > coin) {
-      alert("not enough coin");
+      toast.error("Insufficient coins!");
       return;
     }
 
+    toast.success(`"${name}" added!`);
     setIsSelected(true);
     setCoin(coin - price);
 
     setSelectedPlayer([...selectedPlayer, player]);
   };
-
-  // State: Choose or Selected Button
-  const [isSelected, setIsSelected] = useState(false);
 
   return (
     <div className="p-4 sm:p-6 rounded-2xl border border-neutral/10 w-full bg-white shadow-sm hover:shadow-md transition-shadow max-lg:max-w-103">
