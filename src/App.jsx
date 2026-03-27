@@ -12,10 +12,9 @@ const fetchPlayers = async () => {
   const response = await fetch("/players.json");
   return response.json();
 };
+const playersPromise = fetchPlayers();
 
 function App() {
-  const playersPromise = fetchPlayers();
-
   // State Management for Coins
   const [coin, setCoin] = useState(15000);
 

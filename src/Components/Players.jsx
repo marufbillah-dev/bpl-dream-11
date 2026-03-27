@@ -1,6 +1,7 @@
 import { use, useState } from "react";
 import PlayerCard from "./PlayerCard";
 import SelectedPlayer from "./SelectedPlayer";
+import NoPlayerSelected from "./NoPlayerSelected";
 
 const Players = ({ playersPromise, setCoin, coin }) => {
   const players = use(playersPromise);
@@ -79,9 +80,14 @@ const Players = ({ playersPromise, setCoin, coin }) => {
           ))}
         </div>
 
+        {/* No Player Selected */}
+        {!selectedPlayer.length && activeBtn === "selected" && (
+          <NoPlayerSelected setActiveBtn={setActiveBtn} />
+        )}
+
         {/* Conditional Add More Player Button */}
         <div
-          className={`${activeBtn === "available" ? "hidden" : "inline-block"} mt-6 sm:mt-8 lg:mt-10 w-full`}
+          className={`${activeBtn === "available" ? "hidden" : !selectedPlayer.length ? "hidden" : "inline-block"} mt-6 sm:mt-8 lg:mt-10 w-full`}
         >
           <button
             className="max-sm:w-full rounded-2xl p-1.5 sm:p-2 border-2 border-[#E7FE29] cursor-pointer transition-transform active:scale-95 hover:border-[#d4e924]"
