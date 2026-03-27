@@ -35,13 +35,13 @@ const Navbar = ({ coin }) => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/fixture">Fixture</a>
+                <a href="/">Fixture</a>
               </li>
               <li>
-                <a href="/teams">Teams</a>
+                <a href="/">Teams</a>
               </li>
               <li>
-                <a href="/schedules">Schedules</a>
+                <a href="/">Schedules</a>
               </li>
             </ul>
           </div>
@@ -58,13 +58,13 @@ const Navbar = ({ coin }) => {
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/fixture">Fixture</a>
+                <a href="/">Fixture</a>
               </li>
               <li>
-                <a href="/teams">Teams</a>
+                <a href="/">Teams</a>
               </li>
               <li>
-                <a href="/schedules">Schedules</a>
+                <a href="/">Schedules</a>
               </li>
             </ul>
           </div>
