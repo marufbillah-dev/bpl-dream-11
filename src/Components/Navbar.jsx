@@ -53,7 +53,7 @@ const Navbar = ({ coin }) => {
 
         <div className="navbar-end gap-2 sm:gap-8">
           <div className="hidden lg:flex">
-            <ul className="menu menu-horizontal px-1 font-medium text-neutral/70">
+            <ul className="menu menu-horizontal px-1 font-medium text-neutral/70 flex-nowrap">
               <li>
                 <a href="/">Home</a>
               </li>
@@ -69,8 +69,10 @@ const Navbar = ({ coin }) => {
             </ul>
           </div>
 
-          <div className="flex items-center gap-2 px-3 py-2 sm:px-5 sm:py-3 rounded-xl border border-neutral/10 cursor-pointer hover:bg-neutral/5 transition-colors">
-            <p className="font-bold text-sm sm:text-base">{coin} Coins</p>
+          <div className="flex items-center justify-center shrink-0 gap-2 px-3 py-2 sm:px-5 sm:py-3 rounded-xl border border-neutral/10 cursor-pointer hover:bg-neutral/5 transition-colors">
+            <p className="font-bold text-sm sm:text-base whitespace-nowrap">
+              {coin} Coins
+            </p>
             <img src={dollarIcon} alt="Coins" className="h-5 w-5" />
           </div>
         </div>
